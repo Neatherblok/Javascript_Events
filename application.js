@@ -59,13 +59,13 @@ function clickEventExecuter(event) {
     totalPrice = Number(totalPrice);
 
     if (productInput == '' && priceInput == '') {
-        document.getElementById('alertWarning').innerHTML = 'Melding: vul een product en prijs in.';
+        document.getElementById('alertWarning').innerHTML = 'Melding: vul uw product en prijs in.';
     } else if (priceInput == '') {
-        document.getElementById('alertWarning').innerHTML = 'Melding: vul een prijs in.';
+        document.getElementById('alertWarning').innerHTML = 'Melding: vul uw prijs in.';
     } else if (productInput == '') {
-        document.getElementById('alertWarning').innerHTML = 'Melding: vul een product in.';
+        document.getElementById('alertWarning').innerHTML = 'Melding: vul uw product in.';
     } else if (isNaN(priceInput)) {
-        document.getElementById('alertWarning').innerHTML = 'Melding: vul een prijs in.'; 
+        document.getElementById('alertWarning').innerHTML = 'Melding: vul uw prijs in.'; 
     } else {
         
         priceInput = Number(priceInput).toFixed(2);
