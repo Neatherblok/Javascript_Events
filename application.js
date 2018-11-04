@@ -78,7 +78,7 @@ function clickEventExecuter(event) {
         price.setAttribute("class", "totalPrice");
         const deletion = document.createElement("td");
         deletion.setAttribute("id", `deletion${i}`);
-        const table = document.getElementById("tbody");
+        const tbody = document.getElementById("tbody");
         product.innerHTML = productInput;
         price.innerHTML = priceInput;
         deletion.innerHTML = `<a href="javascript:deletion(${i})">Verwijder</a>`;
